@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Membership</title>
+  <title>Membership Registration</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -11,26 +11,51 @@
     <h1>Caitlin Clark Fansite</h1>
     <nav>
       <a href="index.html">Home</a>
+      <a href="membership.html">Membership</a>
       <a href="merchandise.html">Merchandise</a>
       <a href="news.html">News</a>
       <a href="summary.html">Order Summary</a>
     </nav>
   </header>
   <main>
-    <h2>Membership Registration</h2>
-    <form id="membership-form">
-      <label for="name">Name:</label>
-      <input type="text" id="name" name="name" required>
-      <br>
-      <label for="membership-type">Membership Type:</label>
-      <select id="membership-type" name="membership-type">
-        <option value="gold">Gold</option>
-        <option value="silver">Silver</option>
-        <option value="bronze">Bronze</option>
-      </select>
-      <br>
-      <button type="submit">Submit</button>
-    </form>
+    <h2>Membership Options</h2>
+    <p>Choose your preferred membership and join Caitlin Clark's fan community.</p>
+    
+    <section class="membership-options">
+      <div class="card gold">
+        <h3>Gold VVIP Membership</h3>
+        <p>Price: $1399</p>
+        <ul>
+          <li>Exclusive meet-and-greet events</li>
+          <li>Autographed merchandise</li>
+          <li>Priority seating at games</li>
+          <li>Personalized thank-you video from Caitlin</li>
+        </ul>
+        <button onclick="window.location.href='payment.html'">Select Gold</button>
+      </div>
+
+      <div class="card silver">
+        <h3>Silver VIP Membership</h3>
+        <p>Price: $899</p>
+        <ul>
+          <li>Access to VIP-only events</li>
+          <li>Limited edition merchandise</li>
+          <li>Discounted tickets</li>
+        </ul>
+        <button onclick="window.location.href='payment.html'">Select Silver</button>
+      </div>
+
+      <div class="card regular">
+        <h3>Regular Membership</h3>
+        <p>Price: $299</p>
+        <ul>
+          <li>Fan newsletter</li>
+          <li>Exclusive digital content</li>
+          <li>Community access</li>
+        </ul>
+        <button onclick="window.location.href='payment.html'">Select Regular</button>
+      </div>
+    </section>
   </main>
   <footer>
     <div>

@@ -3,57 +3,54 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Membership Registration</title>
+  <title>Membership Options</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
-    <h1>Caitlin Clark Fansite</h1>
+    <h1>Caitlin Clark Membership</h1>
     <nav>
       <a href="index.html">Home</a>
-      <a href="membership.html">Membership</a>
       <a href="merchandise.html">Merchandise</a>
       <a href="news.html">News</a>
-      <a href="summary.html">Order Summary</a>
+      <a href="biography.html">Biography</a>
     </nav>
   </header>
   <main>
-    <h2>Membership Options</h2>
-    <p>Choose your preferred membership and join Caitlin Clark's fan community.</p>
-
+    <h2>Exclusive Membership Plans</h2>
+    <p>Choose the perfect membership tier for exclusive benefits and opportunities to connect with Caitlin Clark.</p>
+    
     <section class="membership-options">
-      <div class="card gold">
-        <h3>Gold VVIP Membership</h3>
+      <!-- Gold VVIP -->
+      <div class="membership-card">
+        <h3>Gold VVIP</h3>
         <p>Price: $1399</p>
-        <ul>
-          <li>Exclusive meet-and-greet events</li>
-          <li>Autographed merchandise</li>
-          <li>Priority seating at games</li>
-          <li>Personalized thank-you video from Caitlin</li>
-        </ul>
-        <button onclick="window.location.href='finalize_payment.html'">Select Gold</button>
+        <p>Enjoy premium perks, including exclusive meet-and-greet sessions with Caitlin, priority event access, and more!</p>
+        <button onclick="window.location.href='finalize_payment.html'">Select Gold VVIP</button>
       </div>
 
-      <div class="card silver">
-        <h3>Silver VIP Membership</h3>
+      <!-- Silver VIP -->
+      <div class="membership-card">
+        <h3>Silver VIP</h3>
         <p>Price: $899</p>
-        <ul>
-          <li>Access to VIP-only events</li>
-          <li>Limited edition merchandise</li>
-          <li>Discounted tickets</li>
-        </ul>
-        <button onclick="window.location.href='finalize_payment.html'">Select Silver</button>
+        <p>Includes access to special events, signed merchandise, and exclusive content from Caitlin Clark.</p>
+        <button onclick="window.location.href='finalize_payment.html'">Select Silver VIP</button>
       </div>
 
-      <div class="card regular">
+      <!-- Regular -->
+      <div class="membership-card">
         <h3>Regular Membership</h3>
         <p>Price: $299</p>
-        <ul>
-          <li>Fan newsletter</li>
-          <li>Exclusive digital content</li>
-          <li>Community access</li>
-        </ul>
+        <p>Get access to newsletters, fan events, and Caitlin's exclusive content.</p>
         <button onclick="window.location.href='finalize_payment.html'">Select Regular</button>
+      </div>
+
+      <!-- Meet and Greet -->
+      <div class="membership-card">
+        <h3>Meet and Greet</h3>
+        <p>Price: $499</p>
+        <p>Get an unforgettable experience with Caitlin Clark in a personal meet-and-greet session. Limited spots available!</p>
+        <button onclick="window.location.href='finalize_payment.html'">Book Meet and Greet</button>
       </div>
     </section>
   </main>

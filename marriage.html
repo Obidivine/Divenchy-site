@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>WNBA star addresses rumors, keeps relationship private</title>
 
-  <!-- Google Fonts similar to USA Today -->
+  <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
 
   <style>
@@ -53,10 +53,26 @@
       font-size: 18px;
     }
 
+    /* Image styling (FTW-like) */
+    .image-block {
+      margin: 32px 0;
+    }
+
+    .image-block img {
+      width: 100%;
+      display: block;
+    }
+
+    .image-caption {
+      font-size: 13px;
+      color: #666;
+      margin-top: 6px;
+    }
+
     blockquote {
       border-left: 4px solid #0052cc;
       padding-left: 16px;
-      margin: 24px 0;
+      margin: 28px 0;
       font-style: italic;
       font-size: 17px;
       color: #333;
@@ -67,14 +83,24 @@
       color: #333;
     }
 
-    @media (max-width: 600px) {
-      .headline {
-        font-size: 28px;
-      }
+    /* Footer (intentionally NOT responsive) */
+    footer {
+      width: 100%;
+      background-color: #f2f2f2;
+      border-top: 1px solid #ddd;
+      padding: 24px 0;
+      margin-top: 40px;
+    }
 
-      .subheadline {
-        font-size: 16px;
-      }
+    .footer-inner {
+      width: 760px;
+      margin: 0 auto;
+      font-size: 14px;
+      color: #555;
+    }
+
+    .footer-inner p {
+      margin: 6px 0;
     }
   </style>
 </head>
@@ -101,9 +127,17 @@
       <p>
         Caitlin Clark has become one of the most recognizable figures in women’s basketball, drawing
         national attention for her play on the court and her growing influence off it. With that
-        visibility, however, has come increased speculation about her personal life — something the
-        WNBA star says she prefers to keep private.
+        visibility has come increased speculation about her personal life — something the WNBA star
+        says she prefers to keep private.
       </p>
+
+      <!-- Image 1 -->
+      <div class="image-block">
+        <img src="https://i.postimg.cc/Pq5wJDHd/IMG_20260118_WA0004.jpg" alt="Engagement ring photo">
+        <p class="image-caption">
+          Clark shared a glimpse of her engagement ring while reaffirming her desire for privacy.
+        </p>
+      </div>
 
       <p>
         In a recent statement, Clark explained that she has intentionally chosen not to share details
@@ -117,6 +151,14 @@
         to me.”
       </p>
 
+      <!-- Image 2 -->
+      <div class="image-block">
+        <img src="https://i.postimg.cc/HLkynMmp/IMG_20260118_WA0003.jpg" alt="Close-up of engagement ring">
+        <p class="image-caption">
+          The WNBA star confirmed she is engaged, while keeping her relationship largely out of the public eye.
+        </p>
+      </div>
+
       <p>
         Clark’s comments come amid widespread online rumors linking her to various people — claims
         she says are inaccurate and distracting.
@@ -129,18 +171,22 @@
       </blockquote>
 
       <p>
-        While Clark acknowledged the curiosity that comes with public success, she emphasized that
-        maintaining boundaries allows her to stay focused on her career and personal well-being.
-      </p>
-
-      <p>
-        As her professional journey continues, Clark says she hopes fans will respect those
-        boundaries and keep the spotlight where she believes it belongs — on the game.
+        As her professional journey continues, Clark says her priority remains on the court, while
+        maintaining clear boundaries between her public career and her private life.
       </p>
 
     </section>
 
   </main>
+
+  <!-- Footer (non-responsive by design) -->
+  <footer>
+    <div class="footer-inner">
+      <p><strong>FTW | USA Today Network</strong></p>
+      <p>© 2026 USA Today. All rights reserved.</p>
+      <p>This page was recreated for educational purposes only.</p>
+    </div>
+  </footer>
 
 </body>
 </html>
